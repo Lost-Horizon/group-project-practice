@@ -1,1 +1,43 @@
 @import '~bootstrap/scss/bootstrap';
+
+body {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+  #bd {
+    background-color: #BEF9FF;
+    flex:1;
+    min-height:100%;
+  }
+  .row {
+    display:flex;
+  }
+  .col-md-3, .col-md-9 {
+    flex-direction:column;
+  }
+  .col-md-3 {
+    background-color:#72F1FF;
+  }
+  .col-md-9 {
+    background-color:#72F1FF;
+  }
+  #ft {
+    background-color:#39787F;
+    color:#fff;
+    padding:20px;
+  }
+  .group-image {
+    width: auto !important; /*override the width below*/
+    width: 100%;
+    max-width: 300px;
+    max-height: 250px;
+    float: left;
+    clear: both;
+  }
+
+  .content {
+    margin-left: 40px;
+  }
